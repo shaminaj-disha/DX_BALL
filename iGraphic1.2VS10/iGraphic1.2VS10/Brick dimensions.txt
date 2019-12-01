@@ -1,0 +1,184 @@
+int brick1_x = 78;
+int brick1_y = 688-232;
+int brick1_len = 157;
+int brick1_h = 688-203;
+
+int brick2_x = 78;
+int brick2_y = 688-201;
+int brick2_len = 157;
+int brick2_h = 688-172;
+
+int brick3_x = 78;
+int brick3_y = 688-170;
+int brick3_len = 157;
+int brick3_h = 688-141;
+
+int brick4_x = 159;
+int brick4_y = 688-201;
+int brick4_len = 238;
+int brick4_h = 688-172;
+
+int brick5_x = 159;
+int brick5_y = 688-139;
+int brick5_len = 238;
+int brick5_h = 688-110;
+
+int brick6_x = 240;
+int brick6_y = 688-170;
+int brick6_len = 319;
+int brick6_h = 688-141;
+
+int brick7_x = 240;
+int brick7_y = 688-201;
+int brick7_len = 319;
+int brick7_h = 688-172;
+
+int brick8_x = 240;
+int brick8_y = 688-232;
+int brick8_len = 319;
+int brick8_h = 688-203;
+
+int brick9_x = 376;
+int brick9_y = 688-232;
+int brick9_len = 455;
+int brick9_h = 688-203;
+
+int brick10_x = 376;
+int brick10_y = 688-201;
+int brick10_len = 455;
+int brick10_h = 688-172;
+
+int brick11_x = 376;
+int brick11_y = 688-170;
+int brick11_len = 455;
+int brick11_h = 688-141;
+
+int brick12_x = 376;
+int brick12_y = 688-139;
+int brick12_len = 455;
+int brick12_h = 688-110;
+
+int brick13_x = 457;
+int brick13_y = 688-232;
+int brick13_len = 536;
+int brick13_h = 688-203;
+
+int brick14_x = 538;
+int brick14_y = 688-232;
+int brick14_len = 617;
+int brick14_h = 688-203;
+
+int brick15_x = 538;
+int brick15_y = 688-201;
+int brick15_len = 617;
+int brick15_h = 688-172;
+
+int brick16_x = 538;
+int brick16_y = 688-170;
+int brick16_len = 617;
+int brick16_h = 688-141;
+
+int brick17_x = 538;
+int brick17_y = 688-139;
+int brick17_len = 617;
+int brick17_h = 688-110;
+
+int brick18_x = 680;
+int brick18_y = 688-139;
+int brick18_len = 759;
+int brick18_h = 688-110;
+
+int brick19_x = 680;
+int brick19_y = 688-170;
+int brick19_len = 759;
+int brick19_h = 688-141;
+
+int brick20_x = 680;
+int brick20_y = 688-232;
+int brick20_len = 759;
+int brick20_h = 688-203;
+
+int brick21_x = 761;
+int brick21_y = 688-232;
+int brick21_len = 840;
+int brick21_h = 688-203;
+
+int brick22_x = 761;
+int brick22_y = 688-201;
+int brick22_len = 840;
+int brick22_h = 688-172;
+
+int brick23_x = 761;
+int brick23_y = 688-139;
+int brick23_len = 840;
+int brick23_h = 688-110;
+
+int brick24_x = 896;
+int brick24_y = 688-139;
+int brick24_len = 975;
+int brick24_h = 688-110;
+
+int brick25_x = 977;
+int brick25_y = 688-139;
+int brick25_len = 1056;
+int brick25_h = 688-110;
+
+int brick26_x = 977;
+int brick26_y = 688-170;
+int brick26_len = 1056;
+int brick26_h = 688-141;
+
+int brick27_x = 977;
+int brick27_y = 688-201;
+int brick27_len = 1056;
+int brick27_h = 688-172;
+
+int brick28_x = 977;
+int brick28_y = 688-232;
+int brick28_len = 1056;
+int brick28_h = 688-203;
+
+int brick29_x = 1058;
+int brick29_y = 688-139;
+int brick29_len = 1137;
+int brick29_h = 688-110;
+
+#define START_GAME_X 358
+#define START_GAME_LEN 862
+#define START_GAME_Y 406
+#define START_GAME_H 480
+
+#define HOW_TO_PLAY_X 358
+#define HOW_TO_PLAY_LEN 862
+#define HOW_TO_PLAY_Y 286
+#define HOW_TO_PLAY_H 360
+
+#define HIGH_SCORES_X 358
+#define HIGH_SCORES_LEN 862
+#define HIGH_SCORES_Y 166
+#define HIGH_SCORES_H 240
+
+#define EXIT_X 358
+#define EXIT_LEN 862
+#define EXIT_Y 46
+#define EXIT_H 120
+
+if(page==0 && (mx>=START_GAME_X && mx <=START_GAME_LEN) && ((my>=START_GAME_Y && my<=START_GAME_H)))
+  {
+    page=1;
+  }
+
+if(page==0 && (mx>=HOW_TO_PLAY_X && mx <=HOW_TO_PLAY_LEN) && ((my>=HOW_TO_PLAY_Y && my<=HOW_TO_PLAY_H)))
+  {
+    page=1;
+  }
+
+if(page==0 && (mx>=HIGH_SCORES_X && mx <=HIGH_SCORES_LEN) && ((my>=HIGH_SCORES_Y && my<=HIGH_SCORES_H)))
+  {
+    page=1;
+  }
+
+if(page==0 && (mx>=EXIT_X && mx <=EXIT_LEN) && ((my>=EXIT_Y && my<=EXIT_H)))
+  {
+    page=1;
+  }

@@ -1,5 +1,5 @@
-# DX-BALL
-This is a 2D game, developed by C language with Visual Studio 2010 IDE. This game is developed for two levels.
+# DX_BALL
+This is a 2D game, developed using C language and Visual Studio 2010 IDE. This game is developed for two levels.
 To go through the actual solution file the repository is: 
 
 iGraphic1.2VS10/iGraphic1.2VS10.sln
@@ -8,10 +8,10 @@ All the images are in the following directory:
 
 iGraphic1.2VS10/iGraphic1.2VS10
 
-For better visualization of the game I have uploaded a video, which you can find in DX_BALL.webm file.
+For better visualization of the game, a video is uploaded, which can be found in DX_BALL.webm file.
 There is also 'Snapshot' folder in which I have uploaded the snaps of two levels of the game.
 
-The features of this game are:
+The following features are included in this game:
 
 1. Various power-ups appear when hitting random blocks.
 2. Grabbing different 'Fruits' and 'Stars', the score will be increased in different ratio.
@@ -22,5 +22,4 @@ The features of this game are:
 
 More developments are needed in this project. 
 
-Thank you. 
-
+Thank you.

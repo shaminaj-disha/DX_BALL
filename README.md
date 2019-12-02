@@ -1,5 +1,6 @@
 # DX_BALL
-This is a 2D game, developed using C language and Visual Studio 2010 IDE. This game is developed for two levels.
+
+Welcome to DX_BALL. This is a 2D game, developed using C language and Visual Studio 2010 IDE. This game is developed for two levels.
 To go through the actual solution file the repository is: 
 
 iGraphic1.2VS10/iGraphic1.2VS10.sln
